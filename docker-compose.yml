@@ -1,0 +1,9 @@
+services:
+  clamav:
+    image: mkodockx/docker-clamav:alpine
+    container_name: clamav
+    ports:
+      - "3310:3310"
+    volumes:
+      - ./files_to_scan:/scan
+    restart: unless-stopped
