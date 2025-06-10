@@ -5,7 +5,6 @@
 En este ejercicio vas a aprender a usar Docker para levantar un contenedor que ejecuta **ClamAV**, un antivirus gratuito y de código abierto.  
 Vamos a usarlo para escanear archivos locales desde un contenedor.
 
----
 
 ## ✅ Requisitos previos
 
@@ -13,13 +12,12 @@ Vamos a usarlo para escanear archivos locales desde un contenedor.
 - Tener una terminal disponible (PowerShell, CMD o Git Bash).
 - Conexión a internet (para descargar la imagen la primera vez).
 
----
 
 ## 📦 ¿Qué hace este proyecto?
 
 Levanta un contenedor con el antivirus ClamAV y comparte una carpeta local llamada `files_to_scan` donde podés colocar archivos para escanear.
 
----
+
 
 ## 📁 Estructura del proyecto
 clamav_docker/
@@ -27,7 +25,6 @@ clamav_docker/
 ├── files_to_scan/ # Carpeta para dejar los archivos a escanear
 │ └── archivo_prueba.txt # Archivo de prueba (podés borrarlo o agregar más)
 
----
 
 ## 🚀 Paso a paso
 
@@ -35,7 +32,7 @@ clamav_docker/
 
 Si tenés Git instalado:
 
-```bash
+
 git clone https://github.com/tu-usuario/clamav_docker.git
 cd clamav_docker
 
